@@ -26,15 +26,37 @@
 
             .btn_container{
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 margin: 20px 0;
+
+                section{
+                    p{
+                        margin: 0 5px;
+                    }
+                }
 
                 button{
                     padding: 10px 20px;
                     margin: 0 10px;
                     font-size: 20px;
                     cursor: pointer;
+                }
+
+                .reslut_container   {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px 0;
+
+                    h3{
+                        font-size: 25px;
+                    }
+
+                    p{
+                        font-size: 20px;
+                    }
                 }
 
                 #predictButton{

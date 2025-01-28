@@ -21,15 +21,31 @@
 }
 * body section .btn_container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
+}
+* body section .btn_container section p {
+  margin: 0 5px;
 }
 * body section .btn_container button {
   padding: 10px 20px;
   margin: 0 10px;
   font-size: 20px;
   cursor: pointer;
+}
+* body section .btn_container .reslut_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+* body section .btn_container .reslut_container h3 {
+  font-size: 25px;
+}
+* body section .btn_container .reslut_container p {
+  font-size: 20px;
 }
 * body section .btn_container #predictButton {
   background-color: #4CAF50;
