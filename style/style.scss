@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    body{
+        h1{
+            text-align: center;
+            margin: 20px 0;
+            font-size: 35px;
+        }
+
+        section{
+            h2{
+                text-align: center;
+                margin: 20px 0;
+                font-size: 45px;
+            }
+
+            .canvas_container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px 0;
+            }
+
+            .btn_container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px 0;
+
+                button{
+                    padding: 10px 20px;
+                    margin: 0 10px;
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+
+                #predictButton{
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                }
+
+                #clearButton{
+                    background-color: #f44336;
+                    color: white;
+                    border: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* body h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 35px;
+}
+* body section h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 45px;
+}
+* body section .canvas_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+* body section .btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+* body section .btn_container button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+* body section .btn_container #predictButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+* body section .btn_container #clearButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
